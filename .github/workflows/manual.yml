@@ -9,4 +9,10 @@ on:
          description: 'SHA of the commit to update to'
          required: false
          default: 'xxxxxxxxxxxxxx'
-  
+
+jobs:
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    run: echo 'hi'
