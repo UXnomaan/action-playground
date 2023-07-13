@@ -1,0 +1,12 @@
+name: Push updated version
+
+on:
+  # Manual
+  workflow_dispatch:
+     inputs:
+       # SHA of the commit to update to
+       sha:
+         description: 'SHA of the commit to update to'
+         required: false
+         default: 'xxxxxxxxxxxxxx'
+  
